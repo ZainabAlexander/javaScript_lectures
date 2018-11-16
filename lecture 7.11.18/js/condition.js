@@ -74,15 +74,16 @@ Display Message =======*/
 
     // You go next - level and display a specific message if the entered number is zero. Use else if for a second conditional. See this example, which has a positive test case , negative test case and a last resort of the number being zero:
 
+
     // var number = Number(prompt("Enter a number"));
     // if (number > 0 ) {
-    //     console.log(number + " is positive");
+    //     console.log(number + "  the number is positive");
     // }
     // else if (number < 0) {
-    //     console.log(number + " is negative");
+    //     console.log(number + " the number is negative");
     // }
     // else{
-    //     console.log(number + " is zero");
+    //     console.log(number + " the number is zero");
     // }
 
     //Task
