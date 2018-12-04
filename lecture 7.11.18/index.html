@@ -7,14 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> -->
     <!-- <script src="main.js"></script> -->
+
+    <style>
+        p{
+            text-align: center;
+            padding: 10px;
+        }
+    button{
+        padding:10px;
+        margin-right:20px;
+        margin-left: 150px;
+    }
+
+    </style>
 </head>
-<body>
-    <script src="js/object-and-prototypes.js">
-    </script>
-<!-- 
-    <script>
-        // Scripts or statements()
-        console.log("hello")
-    </script> -->
+<body>  
+  <p id="text">
+    modifying documents after they finished  loading-add new content to a page, change the color of an element to reflect a changing state, or remove an element the user does not need anymore..
+    <br>
+    interact with your users- whether ticking a box, commenting on a blog post or submit a text form, your users need to be able to communicate with you.. 
+    <br>
+    js allows them to do so;send and receive data to and from external APIs harness the power of the the thousands of useful APIs that already exist or plug your frontend app into your own custom back end.
+  </p>
+
+  <!-- <button type="button" 
+    onclick="document.getElementById('demo').style.color = 'red'">
+    red!
+ </button>
+
+  <button type="button" 
+    onclick="document.getElementById('demo').style.color = 'blue'">
+    blue
+!</button> -->
+
+    <button type="button" class="red" onclick="changeColor('red');"> im red
+    </button>
+
+    <button type="button" class="blue" onclick="changeColor('blue');"> blue
+    </button>
+
+    <button type="button" class="green" onmouseover="changeColor('green');"> green
+    </button>
+
+    <button type="button" class="yellow" onkeydown="changeColor('yellow');"> yellow
+    </button>
+
+    <button type="button" onmouseout="pink();"> background
+        </button>
+
+<script src="js/dom.js">
+</script>
+
 </body>
 </html>
